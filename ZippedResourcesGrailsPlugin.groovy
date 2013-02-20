@@ -1,6 +1,6 @@
 
 class ZippedResourcesGrailsPlugin {
-    def version = "1.0.1"
+    def version = "3.1"
 
     def grailsVersion = "1.3 > *"
 
@@ -8,6 +8,9 @@ class ZippedResourcesGrailsPlugin {
     
     def pluginExcludes = [
             "grails-app/views/error.gsp",
+            "grails-app/views/index.gsp",
+            "grails-app/conf/ZippedResources.groovy",
+            "grails-app/conf/BootStrap.groovy",
             "web-app/css/**/*.*",
             "web-app/js/**/*.*"
     ]
